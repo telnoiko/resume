@@ -1,0 +1,184 @@
+{
+  "basics": {
+    "name": "Konstantin Telnoi",
+    "label": "Senior Software Engineer",
+    "picture": "",
+    "email": "NLs6houh@protonmail.com",
+    "website": "http://richardhendricks.com",
+    "summary": "I am a passionate software engineer focused on creation and delivery of quality, measurable, maintainable, and performant software to production. I consider DevOps culture a must and try to stick to TDD and BDD practices.",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Tbilisi",
+      "countryCode": "GE",
+      "region": ""
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "Konstantin Telnoi",
+        "url": "https://www.linkedin.com/in/konstantin-telnoy/"
+			},
+      {
+        "network": "GitHub",
+        "username": "y42i3Z",
+        "url": "https://github.com/y42i3Z"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "jaxel inc",
+      "position": "Senior Software Engineer",
+      "website": "https://jaxel.com",
+      "startDate": "2021-09-01",
+      "summary": "Jaxel is it services and consulting company",
+      "highlights": [
+        "Built a team that was first successfull team for a client.",
+        "Reduced several major bugs in etl pipeline resulting in system correct and predictable execution",
+        "Troubleshot a number of critical issues in production before customer deadline."
+      ]
+    },
+		{
+      "company": "Ringcentral Inc",
+      "position": "Senior Software Engineer",
+      "website": "https://www.ringcentral.com",
+      "startDate": "2018-03-01",
+      "endDate": "2021-09-01",
+      "summary": "Ringcentral is a leading provider of global enterprise cloud communications, video meetings, collaboration, and contact center.",
+      "highlights": [
+        "From scratch implemented CI/CD pipeline for serverless AWS application with autoscaling, triggers and alerts.",
+        "Improved service performance by 40% by reducing the number of GC.",
+        "Implemented low latency asynchronous proxy between Kafka and REST applications from scratch.",
+				"Improved application response time and memory usage by 30% by reducing serialisation overheads.",
+        "Led multiple projects as a tech lead.",
+        "Eliminated OOM service failures and improved performance by 60% by optimizing Mongo queries and cache."
+      ]
+    },
+		{
+      "company": "Sberbank-Technologies",
+      "position": "Software Engineer",
+      "website": "https://www.sberbank.com/index",
+      "startDate": "2016-03-01",
+      "endDate": "2018-04-01",
+      "summary": "SberBank is #1 bank in Russia.",
+      "highlights": [
+        "Applied custom company-wide CI/CD pipelines to introduce iterative development approach to the team.",
+        "Reduced codebase and improved maintainability by refactoring and moving out code into libraries and modules.",
+        "Onboarded and mentored 7 team members.",
+				"Coordinated development process among Scrum master, QA team, Dev team, and DevOps engineers."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "South Ural State University",
+      "area": "Applied Physics and Mathematics",
+      "studyType": "Bachelor",
+      "startDate": "2008-09-01",
+      "endDate": "2012-09-01",
+      "gpa": "4.5",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Programming",
+      "keywords": [
+        "Java",
+        "Node.JS",
+        "Scala",
+				"Groovy",
+				"Go"
+      ]
+    },
+     {
+      "name": "Frameworks and Libraries",
+      "keywords": [
+        "Spring",
+				"Spring Boot",
+				"Spring Cloud",
+				"Spring Reactor",
+				"Micronaut",
+				"Quartz Scheduler"
+      ]
+    },
+    {
+      "name": "Testing",
+      "keywords": [
+        "Cucumber",
+        "Junit",
+        "Mockito",
+				"Docker",
+				"Testcontainers",
+				"Gatling",
+				"K6",
+				"Spock"
+      ]
+    },
+    {
+      "name": "Monitoring",
+      "keywords": [
+        "Micrometer",
+				"Telegraf",
+				"InfluxDB",
+				"Grafana",
+				"Cloudwatch",
+				"Splunk"
+      ]
+    },
+    {
+      "name": "Delivery tools",
+      "keywords": [
+        "Gradle",
+        "Maven",
+        "Terraform",
+        "CloudFormation",
+        "Jenkins",
+        "Gitlab CI",
+        "GitHub CI",
+        "Ansible",
+        "Shell scripts"
+      ]
+    },
+    {
+      "name": "Cloud",
+      "keywords": [
+        "AWS Lambda",
+        "EC2",
+        "S3",
+        "SNS",
+        "SQS",
+        "Auto-Scaling",
+        "ALB",
+        "API Gateway"
+      ]
+    },
+    {
+      "name": "Persistance",
+      "keywords": [
+        "MongoDb",
+        "DynamoDb",
+        "OracleDb",
+        "Kafka",
+        "Redis"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Advanced, C1"
+    }
+  ],
+  "interests": [
+    {
+      "name": "MacOS/iOS Automation"
+    },
+    {
+      "name": "Yoga"
+    }
+	]
+}
