@@ -2,9 +2,9 @@
   "basics": {
     "name": "Konstantin Telnoi",
     "label": "Senior Software Engineer",
-    "picture": "",
+    "image": "",
     "email": "NLs6houh@protonmail.com",
-    "website": "http://richardhendricks.com",
+    "website": "",
     "summary": "I am a passionate software engineer focused on creation and delivery of quality, measurable, maintainable, and performant software to production. I consider DevOps culture a must and try to stick to TDD and BDD practices.",
     "location": {
       "address": "",
@@ -18,7 +18,7 @@
         "network": "LinkedIn",
         "username": "Konstantin Telnoi",
         "url": "https://www.linkedin.com/in/konstantin-telnoy/"
-			},
+      },
       {
         "network": "GitHub",
         "username": "y42i3Z",
@@ -32,14 +32,14 @@
       "position": "Senior Software Engineer",
       "website": "https://jaxel.com",
       "startDate": "2021-09-01",
-      "summary": "Jaxel is it services and consulting company",
+      "summary": "Jaxel is IT services and consulting company",
       "highlights": [
         "Built a team that was first successfull team for a client.",
         "Reduced several major bugs in etl pipeline resulting in system correct and predictable execution",
         "Troubleshot a number of critical issues in production before customer deadline."
       ]
     },
-		{
+    {
       "company": "Ringcentral Inc",
       "position": "Senior Software Engineer",
       "website": "https://www.ringcentral.com",
@@ -47,15 +47,15 @@
       "endDate": "2021-09-01",
       "summary": "Ringcentral is a leading provider of global enterprise cloud communications, video meetings, collaboration, and contact center.",
       "highlights": [
+        "Led multiple projects as a tech lead.",
         "From scratch implemented CI/CD pipeline for serverless AWS application with autoscaling, triggers and alerts.",
         "Improved service performance by 40% by reducing the number of GC.",
         "Implemented low latency asynchronous proxy between Kafka and REST applications from scratch.",
-				"Improved application response time and memory usage by 30% by reducing serialisation overheads.",
-        "Led multiple projects as a tech lead.",
+        "Improved application response time and memory usage by 30% by reducing serialisation overheads.",
         "Eliminated OOM service failures and improved performance by 60% by optimizing Mongo queries and cache."
       ]
     },
-		{
+    {
       "company": "Sberbank-Technologies",
       "position": "Software Engineer",
       "website": "https://www.sberbank.com/index",
@@ -66,7 +66,7 @@
         "Applied custom company-wide CI/CD pipelines to introduce iterative development approach to the team.",
         "Reduced codebase and improved maintainability by refactoring and moving out code into libraries and modules.",
         "Onboarded and mentored 7 team members.",
-				"Coordinated development process among Scrum master, QA team, Dev team, and DevOps engineers."
+        "Coordinated development process among Scrum master, QA team, Dev team, and DevOps engineers."
       ]
     }
   ],
@@ -90,19 +90,19 @@
         "Java",
         "Node.JS",
         "Scala",
-				"Groovy",
-				"Go"
+        "Groovy",
+        "Go"
       ]
     },
-     {
+    {
       "name": "Frameworks and Libraries",
       "keywords": [
         "Spring",
-				"Spring Boot",
-				"Spring Cloud",
-				"Spring Reactor",
-				"Micronaut",
-				"Quartz Scheduler"
+        "Spring Boot",
+        "Spring Cloud",
+        "Spring Reactor",
+        "Micronaut",
+        "Quartz Scheduler"
       ]
     },
     {
@@ -111,22 +111,22 @@
         "Cucumber",
         "Junit",
         "Mockito",
-				"Docker",
-				"Testcontainers",
-				"Gatling",
-				"K6",
-				"Spock"
+        "Docker",
+        "Testcontainers",
+        "Gatling",
+        "K6",
+        "Spock"
       ]
     },
     {
       "name": "Monitoring",
       "keywords": [
         "Micrometer",
-				"Telegraf",
-				"InfluxDB",
-				"Grafana",
-				"Cloudwatch",
-				"Splunk"
+        "Telegraf",
+        "InfluxDB",
+        "Grafana",
+        "Cloudwatch",
+        "Splunk"
       ]
     },
     {
@@ -176,9 +176,6 @@
   "interests": [
     {
       "name": "MacOS/iOS Automation"
-    },
-    {
-      "name": "Yoga"
     }
-	]
+  ]
 }
