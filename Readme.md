@@ -1,7 +1,50 @@
-Automated resume builder.
+Inspired by https://github.com/paskal/resume.
 
-## To create new resume.json template run 
+# Automated resume builder
+
+## Set Theme
+
+Set `THEME` in [config file](docker/.env) to one
+of [existing themes](https://www.npmjs.com/search?ranking=maintenance&q=jsonresume-theme)
+
+## To build [JSON Resume](https://jsonresume.org) local image
+
+Run from the console from the project root directory
+
+```shell
+make buildimage
+```
+
+## Preview generated resume on [localhost:4000](http://localhost:4000)
+
+```shell
+make serve
+```
+
+## Build resume in HTML format
+
+```shell
+make buildHtml
+```
+
+## Build resume in PDF format
+
+There are 2 options. First one is "native" and the second one was found during development and potentially more
+customisable.
+The default one provides better result, v2 is left for further investigations.
+
+```shell
+make buildPdf
+```
+
+```shell
+make buildPdfV2
+```
+
+## To create new resume.json template
+
+Rename or delete existing `resume.json`, then
+
 ```shell
 make init
 ```
-

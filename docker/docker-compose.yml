@@ -1,0 +1,62 @@
+version: '3.5'
+services:
+
+  image-builder:
+    image: ko7ko/jsonresume:latest
+    build:
+      args:
+        THEME: ${THEME}
+
+  html-builder:
+    image: ko7ko/jsonresume
+    command: export --theme ./node_modules/${THEME} /tmp/output/index.html
+    volumes:
+      - ../cv:/tmp/output
+      - ../resume.json:/data/resume.json:ro
+
+  #  https://github.com/jsonresume/resume-cli/issues/564
+  pdf-builder:
+    image: ko7ko/jsonresume
+    environment:
+      - RESUME_PUPPETEER_NO_SANDBOX=1
+    command: export --theme ./node_modules/${THEME} --format pdf /tmp/output/cv.pdf
+    volumes:
+      - ../cv:/tmp/output
+      - ../resume.json:/data/resume.json:ro
+
+  server:
+    image: ko7ko/jsonresume
+    working_dir: /data/node_modules/${THEME}
+    command: serve --theme .
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "5"
+    volumes:
+      - ../resume.json:/data/node_modules/${THEME}/resume.json:ro
+    ports:
+      - "4000:4000"
+
+  pdf-convertor:
+    image: gotenberg/gotenberg:7
+    ports:
+      - "3000:3000"
+    networks:
+      - cloud
+
+  pdf-builder-gotenberg:
+    image: curlimages/curl
+    entrypoint: sh
+    working_dir: /work
+    command: "docker/wait-for http://pdf-convertor:3000/health -t 5 -- curl --request POST 'http://pdf-convertor:3000/forms/chromium/convert/html' --form files=@'cv/index.html' -o cv/cv_v2.pdf"
+    volumes:
+      - ../:/work
+    depends_on:
+      - pdf-convertor
+    networks:
+      - cloud
+
+networks:
+  cloud:
+    name: "${COMPOSE_PROJECT_NAME}"
