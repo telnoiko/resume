@@ -1,4 +1,4 @@
-buildImage:
+image:
 	docker-compose -f docker/docker-compose.yml build image-builder
 
 init:
@@ -7,11 +7,11 @@ init:
 serve:
 	docker-compose -f docker/docker-compose.yml up server
 
-buildHtml:
+html:
 	docker-compose -f docker/docker-compose.yml up html-builder
 
-buildPdf:
+pdf:
 	docker-compose -f docker/docker-compose.yml up --force-recreate --abort-on-container-exit pdf-builder
 
-buildPdfV2:
+pdf_v2:
 	docker-compose -f docker/docker-compose.yml up --force-recreate --abort-on-container-exit pdf-builder-gotenberg
