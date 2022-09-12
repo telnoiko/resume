@@ -2,6 +2,14 @@ Inspired by https://github.com/paskal/resume.
 
 # Automated resume builder
 
+> Enjoy your local Resume.io 🤩
+
+Use cases: 
+ - separate data and the view for cv
+ - create pdf versions on the fly
+ - use different themes
+ - serve cv from the web-site
+
 ## Set Theme
 
 Set `THEME` in [config file](docker/.env) to one
