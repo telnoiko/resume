@@ -1,6 +1,6 @@
 Inspired by https://github.com/paskal/resume.
 
-# Automated resume builder
+# Simple automated resume builder
 
 > Enjoy your local Resume.io 🤩
 
@@ -8,7 +8,11 @@ Use cases:
  - separate data and the view for cv
  - create pdf versions on the fly
  - use different themes
- - serve cv from the web-site
+ - serve cv from the web-site  
+
+# Usage
+
+Just fork/download, update `resume.json`, then use provided commands to build nice resume locally.
 
 ## Set Theme
 
