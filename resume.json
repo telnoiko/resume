@@ -3,7 +3,7 @@
     "name": "Konstantin Telnoi",
     "label": "Senior Software Engineer",
     "image": "",
-    "email": "NLs6houh@protonmail.com",
+    "email": "ktelnoi@pm.me",
     "website": "",
     "summary": "I am a passionate software engineer focused on creation and delivery of quality, measurable, maintainable, and performant software to production. I consider DevOps culture a must and try to stick to TDD and BDD practices.",
     "location": {
@@ -34,8 +34,8 @@
       "startDate": "2021-09-01",
       "summary": "Jaxel is IT services and consulting company",
       "highlights": [
-        "Built a team that was first successfull team for a client.",
-        "Reduced several major bugs in etl pipeline resulting in system correct and predictable execution",
+        "Built a team that was first successful team for a client.",
+        "Reduced several major bugs in ETL pipeline resulting in system correct and predictable execution",
         "Troubleshot a number of critical issues in production before customer deadline."
       ]
     },
@@ -45,14 +45,14 @@
       "website": "https://www.ringcentral.com",
       "startDate": "2018-03-01",
       "endDate": "2021-09-01",
-      "summary": "Ringcentral is a leading provider of global enterprise cloud communications, video meetings, collaboration, and contact center.",
+      "summary": "Ringcentral is a provider of global enterprise cloud communications, video meetings, collaboration, and contact center.",
       "highlights": [
         "Led multiple projects as a tech lead.",
         "From scratch implemented CI/CD pipeline for serverless AWS application with autoscaling, triggers and alerts.",
         "Improved service performance by 40% by reducing the number of GC.",
         "Implemented low latency asynchronous proxy between Kafka and REST applications from scratch.",
         "Improved application response time and memory usage by 30% by reducing serialisation overheads.",
-        "Eliminated OOM service failures and improved performance by 60% by optimizing Mongo queries and cache."
+        "Eliminated OOM service failures and improved performance by 60% by optimising Mongo queries and cache."
       ]
     },
     {
