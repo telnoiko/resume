@@ -4,15 +4,20 @@ Inspired by https://github.com/paskal/resume.
 
 > Enjoy your local Resume.io 🤩
 
-Use cases: 
- - separate data and the view for cv
- - create pdf versions on the fly
- - use different themes
- - serve cv from the web-site  
+Use cases:
+
+- separate data and the view for cv
+- create pdf versions on the fly
+- use different themes
+- serve cv from the web-site
 
 # Usage
 
 Just fork/download, update `resume.json`, then use provided commands to build nice resume locally.
+
+# Prerequisites
+
+- Docker installed
 
 ## Set Theme
 
@@ -49,7 +54,10 @@ The default one provides better result, v2 is left for further investigations.
 make pdf
 ```
 
+This version requires html file created in cv directory
+
 ```shell
+make html
 make pdf_v2
 ```
 
